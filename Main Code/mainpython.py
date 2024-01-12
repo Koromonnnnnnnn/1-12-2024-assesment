@@ -1,16 +1,16 @@
-question = input("Which do you preffer; Platformers or Shooter games?")
+question = input("Which do you prefer: Platformers or Shooter games? ")
 
-if question == "platformers" or "Platformers":
+if question.lower() == "platformers":
     question2 = input(
-        "Nice! Would you want the bad guys to be aliens or mushrooms?")
-    if question2 == "aliens" or "Aliens":
-        print("I suggest Metroid")
-    elif question2 == "mushrooms" or "Mushrooms":
-        print("I suggest Mario Bros")
-elif question == "shooter" or "Shooter":
+        "Nice! Would you want the bad guys to be aliens or mushrooms? ")
+    if question2.lower() == "aliens":
+        print("I suggest playing Metroid")
+    elif question2.lower() == "mushrooms":
+        print("I suggest playing Mario Bros")
+elif question.lower() == "shooter":
     question3 = input(
-        "Nice! Would you want the bad guys to be aliens or mushrooms?")
-    if question3 == "aliens" or "Aliens":
-        print("I suggest Halo")
-    elif question3 == "mushrooms" or "Mushrooms":
-        print("I suggest The Last of Us")
+        "Nice! Would you want the bad guys to be aliens or mushrooms? ")
+    if question3.lower() == "aliens":
+        print("I suggest playing Halo")
+    elif question3.lower() == "mushrooms":
+        print("I suggest playing The Last of Us")
