@@ -13,7 +13,7 @@ int main()
         cin >> prefference;
         if (prefference == "platformers" || "Platformers")
         {
-            cout << "ice! Would you want the bad guys to be aNliens or mushrooms?" << endl;
+            cout << "Nice! Would you want the bad guys to be aNliens or mushrooms?" << endl;
             cin >> prefference;
             if (prefference == "aliens" || "Aliens")
             {
