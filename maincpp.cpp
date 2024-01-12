@@ -26,7 +26,7 @@ int main()
                 break;
             }
         }
-        if (prefference == "shooter" || "Shooter")
+        else if (prefference == "shooter" || "Shooter")
         {
             cout << "Nice! Would you want the bad guys to be aliens or mushrooms?" << endl;
             cin >> prefference;
